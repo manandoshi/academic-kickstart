@@ -6,11 +6,11 @@
 baseurl = "/"
 
 # Title of your site
-title = "Academic"
+title = "Vishwa Vasani"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy;Vishwa Vasani 2018"
 
 theme = "academic"
 enableEmoji = true
@@ -31,7 +31,7 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
@@ -47,31 +47,31 @@ enableGitInfo = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Vishwa Vasani"
+  role = "Dual Degree Student, Mechanical Engineering"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "IIT Bombay", url = "iitb.ac.in" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
+  email = "vishwa.vasani@iitb.ac.in"
+  address = "Room A-719, Hostel 10, IIT Bombay, Mumbai, 400076, India"
+  #office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "+91 7738724258"
+  skype = "live:vishwa.vasani"
+  #telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
-  keybase = ""
+  keybase = "vishwa"
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -119,7 +119,7 @@ enableGitInfo = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -149,7 +149,7 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["python"]
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -226,12 +226,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
-
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "mailto:vishwa.vasani@iitb.ac.in"
 
   [[params.social]]
     icon = "google-scholar"
@@ -239,9 +234,9 @@ enableGitInfo = false
     link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
-    icon = "github"
+    icon = "gitlab"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//gitlab.com/vishwa.vasani"
 
 
 # Navigation Links
